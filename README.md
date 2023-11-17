@@ -1,11 +1,4 @@
-# E - Voting Created Using Django 
-This E - Voting System Was Developed With Django(Python Framework).
-Feel free to make changes based on your requirements.
-
-
-
-If you like this project, then ADD a STAR ⭐️  to this project 👆
-
+# E - Voting System
 This Voting System web application built using Django can serve as the automated voting system for organizations and/or institutions. The system works like the common election manual system of voting whereas the system must be populated by the list of the positions, candidates, and voters. The E-voting system can help a certain organization or school to minimize the voting time duration because aside providing the voters an online platform to vote, the system will automatically count the votes for each candidate. The system has 2 sides of the user interface which are the administrator and voters side. The admin user is in charge to populate and manage the data of the system and the voter side which is where the voters will choose their candidate and submit their votes.
 
 
@@ -74,11 +67,6 @@ This Voting System web application built using Django can serve as the automated
 
 
 
-## Support Developer
-1. Add a Star 🌟  to this 👆 Repository
-2. Follow on Twitter/Github
-
-
 ## Passport/Images
 Images are from [Unsplash](https://unsplash.com) 
 
@@ -141,7 +129,7 @@ $  source bin/activate
 
 **3. Clone this project**
 ```
-$  git clone https://github.com/jobic10/e-voting-with-django.git
+$  git clone https://github.com/OwinoLucas/e-voting.git
 ```
 
 Then, Enter the project
@@ -193,33 +181,6 @@ Command for Linux:
 $  python3 manage.py createsuperuser
 ```
 
-
-
-Then Add Email and Password
-
-**or Use Default Credentials**
-
-*For HOD /SuperAdmin*
-Email: admin@admin.com
-Password: admin
-
-*For Staff*
-Email: staff@staff.com
-Password: staff
-
-*For Student*
-Email: student@student.com
-Password: student
-
-
-
-## For Sponsor or Projects Enquiry
-1. Email - jobowonubi@gmail.com
-2. LinkedIn - [jobic10](https://www.linkedin.com/in/jobic10 "Owonubi Job Sunday on LinkedIn")
-2. Twitter - [jobic10](https://www.twitter.com/jobic10 "Owonubi Job Sunday on Twitter")
-
-
-
 ## How the system works
 Administrator is required to have created candidates. 
 Before creating candidates, the admin must have created positions
@@ -236,11 +197,6 @@ Yeah, sure.
 Open `settings.py` and toggle `SEND_OTP` to  `False`
 Then, wait till server restarts
 
-## Open to contribution ?
-Yeah. Pull requests are welcomed.
 
-
-## Having any issue using this ?
-Please, let us know. Open up an issue. 
 
 
