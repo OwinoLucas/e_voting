@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: dockerfile-mysql
+    ports:
+      - "3307:3306"
+
+  web:
+    build:
+      context: .
+      dockerfile: dockerfile-django
+    volumes:
+      - .:/app
+      - ./static:/app/static
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db

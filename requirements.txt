@@ -1,6 +1,11 @@
-Django==3.1.1
-mysql-connector==2.2.9
+asgiref==3.6.0
+distlib==0.3.7
+Django==4.2.6
 virtualenv==20.0.31
-Pillow==7.2.0
-django-renderpdf2==3.0.1
+Pillow==10.1.0
+django-renderpdf==4.0.0
 requests==2.24.0
+mysqlclient==2.2.0
+PyMySQL==1.1.0
+pytz==2020.1
+gunicorn==21.2.0
